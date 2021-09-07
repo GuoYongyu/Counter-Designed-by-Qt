@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>421</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QSpinBox" name="prec_edit">
+    <property name="geometry">
+     <rect>
+      <x>329</x>
+      <y>95</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>小数位数</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;  
+border: 2px groove gray;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_0_btn">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>495</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字0</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_0.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_1_btn">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>225</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字1</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_1.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_2_btn">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>225</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字2</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_2.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_3_btn">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>225</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字3</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_3.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_4_btn">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>315</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字4</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_4.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_5_btn">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>315</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字5</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_5.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_6_btn">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>315</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字6</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_6.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_7_btn">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>405</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字7</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_7.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_8_btn">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>405</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字8</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_8.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="num_9_btn">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>405</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>数字9</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/num_9.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_equ_btn">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>495</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string>等于</string>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_equ.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_clear_btn">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>405</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>清除</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_clear.jpg);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_postfix_btn">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>315</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>逆波兰式</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_postfix.jpg);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_dot_btn">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>225</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>小数点</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_dot.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_div_btn">
+    <property name="geometry">
+     <rect>
+      <x>319</x>
+      <y>135</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>除号</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_div.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_mul_btn">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>135</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>乘号</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_mul.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_sub_btn">
+    <property name="geometry">
+     <rect>
+      <x>119</x>
+      <y>135</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>减号</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_sub.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_lbr_btn">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>495</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>左括号</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_lbr.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_add_btn">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>135</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string>加号</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_add.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="op_rbr_btn">
+    <property name="geometry">
+     <rect>
+      <x>219</x>
+      <y>495</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="toolTip">
+     <string>右括号</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-image: url(:/image/op_rbr.png);
+	border-radius: 20px;  
+	border: 2px groove gray;
+}
+QPushButton:pressed
+{
+    padding-left:5px;  
+    padding-top:5px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="prec_show">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>100</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>小数位数：</string>
+    </property>
+   </widget>
+   <widget class="QListView" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>421</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/image/background.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="screen">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>381</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;  
+border: 2px groove gray;</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Microsoft YaHei'; font-size:20pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'SimSun'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>prec_edit</zorder>
+   <zorder>num_0_btn</zorder>
+   <zorder>num_1_btn</zorder>
+   <zorder>num_2_btn</zorder>
+   <zorder>num_3_btn</zorder>
+   <zorder>num_4_btn</zorder>
+   <zorder>num_5_btn</zorder>
+   <zorder>num_6_btn</zorder>
+   <zorder>num_7_btn</zorder>
+   <zorder>num_8_btn</zorder>
+   <zorder>num_9_btn</zorder>
+   <zorder>op_equ_btn</zorder>
+   <zorder>op_clear_btn</zorder>
+   <zorder>op_postfix_btn</zorder>
+   <zorder>op_dot_btn</zorder>
+   <zorder>op_div_btn</zorder>
+   <zorder>op_mul_btn</zorder>
+   <zorder>op_sub_btn</zorder>
+   <zorder>op_lbr_btn</zorder>
+   <zorder>op_add_btn</zorder>
+   <zorder>op_rbr_btn</zorder>
+   <zorder>prec_show</zorder>
+   <zorder>screen</zorder>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionmore">
+   <property name="text">
+    <string>more...</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="source.qrc"/>
+ </resources>
+ <connections/>
+</ui>

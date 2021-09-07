@@ -1,0 +1,15 @@
+#ifndef INFIX2FOSTFIX_H
+#define INFIX2FOSTFIX_H
+
+#include
+
+class Infix2Fostfix
+{
+public:
+    Infix2Fostfix();
+    
+private:
+    Q
+};
+
+#endif // INFIX2FOSTFIX_H

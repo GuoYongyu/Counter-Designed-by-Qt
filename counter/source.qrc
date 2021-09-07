@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/num_0.png</file>
+        <file>image/num_1.png</file>
+        <file>image/num_2.png</file>
+        <file>image/num_3.png</file>
+        <file>image/num_4.png</file>
+        <file>image/num_5.png</file>
+        <file>image/num_6.png</file>
+        <file>image/num_7.png</file>
+        <file>image/num_8.png</file>
+        <file>image/num_9.png</file>
+        <file>image/op_add.png</file>
+        <file>image/op_div.png</file>
+        <file>image/op_dot.png</file>
+        <file>image/op_equ.png</file>
+        <file>image/op_lbr.png</file>
+        <file>image/op_mul.png</file>
+        <file>image/op_rbr.png</file>
+        <file>image/op_sub.png</file>
+        <file>image/op_clear.jpg</file>
+        <file>image/op_postfix.jpg</file>
+        <file>image/background.jpg</file>
+    </qresource>
+</RCC>

@@ -20,6 +20,8 @@ const char priority[7][7] = {
      {'<', '<', '<', '<', '<', ' ', '='}
 };
 
+const int default_precision = 2;
+
 string type2op(StringType type);
 
 int op2int(char op);

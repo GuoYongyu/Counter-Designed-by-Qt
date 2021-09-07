@@ -35,7 +35,7 @@ double Calculate::simple_calculation(char op, double num1, double num2) {
     }
 }
 
-string double2string(const double& val, int prec)
+string double2string(const double val, int prec)
 {
     string str = to_string(val);
     std::stringstream ss;
@@ -89,13 +89,8 @@ string Calculate::get_value() {
     }
 
     if (precision <= 0) {
-        return to_string(int(opnd.top()));
+        return to_string(int(opnd.top() + 0.5));
     } else {
-        int prec = precision;
-        string res = to_string(opnd.top());
-        if (res.find('.')) {
-            prec = res.find('.') + 1 + precision;
-        }
-        return double2string(opnd.top(), prec);
+        return double2string(opnd.top(), precision);
     }
 }

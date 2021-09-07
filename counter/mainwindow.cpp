@@ -7,10 +7,12 @@ MainWindow::MainWindow(QWidget *parent) :
     setWindowTitle(tr("Simple Calculator"));
     setWindowFlags(windowFlags()& ~Qt::WindowMaximizeButtonHint);
     setFixedSize(this->width(), this->height());
+    ui->prec_edit->setRange(0, 10);
+    ui->prec_edit->setValue(default_precision);
     i2p = new Infix2Postfix ();
     cal = new Calculate ();
     expression = "";
-    precision = 0;
+    precision = default_precision;
     result = "";
     screen_display("Welcome!");
 }
@@ -135,5 +137,4 @@ void MainWindow::on_op_postfix_btn_clicked() {
 
 void MainWindow::on_prec_edit_valueChanged(int prec) {
     precision = prec;
-    cout << precision;
 }

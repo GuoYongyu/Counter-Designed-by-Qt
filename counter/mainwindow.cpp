@@ -115,6 +115,7 @@ void MainWindow::on_op_equ_btn_clicked() {
     result = cal->get_value();
     if (result == "") result = "Wrong!";
     screen_display(result);
+    expression = "";
 }
 
 void MainWindow::on_op_clear_btn_clicked() {
@@ -129,8 +130,10 @@ void MainWindow::on_op_postfix_btn_clicked() {
     result = i2p->to_postfix();
     if (result == "") result = "Wrong!";
     screen_display(result);
+    expression = "";
 }
 
 void MainWindow::on_prec_edit_valueChanged(int prec) {
     precision = prec;
+    cout << precision;
 }
